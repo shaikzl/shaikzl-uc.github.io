@@ -9,4 +9,4 @@
 
 **Short-bio**: I have great intrest towards ethical hacking. 
 
-![Zaheers's headshot](images/myheadshot.jpg)
+![Zaheers's headshot](images/zaheerpic.jpeg)
