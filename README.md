@@ -13,4 +13,4 @@
 
 https://shaikzl.github.io/shaikzl-uc.github.io/index.html
 
- ![html file](images/z2.png)
+ ![html file](images/i1.png)
