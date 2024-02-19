@@ -37,5 +37,4 @@ Snap-7,8 - I incorporated several jQuery operations into the webpage: a digital 
 ![clock](images/i10.png)
 In Snap-9, there's a JavaScript cookie feature set up to trigger an alert message when a user visits the page for the first time.
 
-![welcomeback](images/i11.png)
-Screenshot-9 showcases a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
+Snap-10 showcases a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
