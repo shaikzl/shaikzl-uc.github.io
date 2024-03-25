@@ -251,7 +251,9 @@
 	    <div id="jokeContainer">
         <!-- The joke will be displayed here -->
              </div>
-	
+	<div id="dog">
+		<h3>Random Dog Image</h3>
+		
 	    <script>
         // Function to fetch and display a joke
         function fetchJoke() {
@@ -276,6 +278,16 @@
 
         // Set up interval to fetch and display a joke every minute
         setInterval(fetchJoke, 60000);
+		    
+fetch("https://dog.ceo/api/breeds/image/random")
+  .then(response => response.json())
+  .then(data => {
+    const dogImage = document.createElement("img");
+    dogImage.src = data.url;
+    document.body.appendChild(dogImage);
+  })
+  .catch(error => console.error(error));
+
 	    </script>
                 <!-- Service Start -->
 
