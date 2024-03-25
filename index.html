@@ -247,6 +247,36 @@
                         </div>
                     </div>
                 </div>
+		    
+	    <div id="jokeContainer">
+        <!-- The joke will be displayed here -->
+             </div>
+	
+	    <script>
+        // Function to fetch and display a joke
+        function fetchJoke() {
+            $.ajax({
+                url: 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=explicit&type=single',
+                method: 'GET',
+                success: function(response) {
+                    // Check if it's a single-part or two-part joke
+                    var jokeText = response.type === 'single' ? response.joke : response.setup + ' ' + response.delivery;
+
+                    // Display the joke in the container
+                    $('#jokeContainer').html('<p>' + jokeText + '</p>');
+                },
+                error: function(error) {
+                    console.error('Error fetching joke:', error);
+                }
+            });
+        }
+
+        // Initial fetch when the page loads
+        fetchJoke();
+
+        // Set up interval to fetch and display a joke every minute
+        setInterval(fetchJoke, 60000);
+	    </script>
                 <!-- Service Start -->
 
                 <!-- Contact Start -->
@@ -420,33 +450,5 @@
     // Display welcome message on page load
     displayWelcomeMessage();
 </script>
-	    <div id="jokeContainer">
-        <!-- The joke will be displayed here -->
-      </div>
-	    <script>
-        // Function to fetch and display a joke
-        function fetchJoke() {
-            $.ajax({
-                url: 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=explicit&type=single',
-                method: 'GET',
-                success: function(response) {
-                    // Check if it's a single-part or two-part joke
-                    var jokeText = response.type === 'single' ? response.joke : response.setup + ' ' + response.delivery;
-
-                    // Display the joke in the container
-                    $('#jokeContainer').html('<p>' + jokeText + '</p>');
-                },
-                error: function(error) {
-                    console.error('Error fetching joke:', error);
-                }
-            });
-        }
-
-        // Initial fetch when the page loads
-        fetchJoke();
-
-        // Set up interval to fetch and display a joke every minute
-        setInterval(fetchJoke, 60000);
-	    </script>
     </body>
 </html>
