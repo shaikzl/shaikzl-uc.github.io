@@ -24,5 +24,9 @@ snap - 2, I employed the Bootstrap CSS framework for creating my website more fl
 
 ![education](images/up3.png)
 ![experience](images/up4.png)
-In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my educational background and projects and certifications an Interships, I integrated Bootstrap's robust CSS framework into my website development process
+In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my educational background and projects and certifications an Interships, I integrated Bootstrap's robust CSS framework into my website development process.
+
+Included a page tracker using flagcounter to count the number of visitors
+to the page. Included this counter at the bottom of the page
+
 
