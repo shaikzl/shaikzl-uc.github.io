@@ -61,3 +61,8 @@ I inserted the public jokeAPI that displays a new joke every minute. Ajax was u
 
 ![Joke](images/up7.png)
 
+Used a public API named dogapi to get dog images when requested.
+
+![Dog](images/up8.png)
+
+
