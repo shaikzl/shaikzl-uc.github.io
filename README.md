@@ -32,7 +32,9 @@ to the page. Included this counter at the bottom of the page.
 ![flag](images/up5.png)
 
 ```
-<div><a href="http://s11.flagcounter.com/more/OCo"><img src="https://s11.flagcounter.com/count2/OCo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
+<div><a href="http://s11.flagcounter.com/more/OCo"><img src="https://s11.flagcounter.com/
+count2/OCo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/
+maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
 ```
 
 ![clock](images/up6.png)
@@ -75,10 +77,12 @@ Used a public API named dogapi to get dog images when requested.
                 .then(response => response.json())
                 .then(data => {
                     const imageUrl = data.message;
-                    // Update the src attribute of the img element with the fetched image URL
+                    // Update the src attribute of the img
+                     element with the fetched image URL
                     document.getElementById('dog-image').src = imageUrl;
                 })
-                .catch(error => console.error('Error fetching random dog image:', error));
+                .catch(error => console.error('Error fetching random
+                          dog image:', error));
         }
 
         // Call the fetchRandomDogImage function when the page loads
