@@ -38,4 +38,20 @@ to the page. Included this counter at the bottom of the page.
 ![clock](images/up6.png)
 I incorporated several jQuery operations into the webpage: a digital clock, an analog clock, and an email onclick function.
 
+```
+<button id="colorfulButton">Click Me!</button>
+<script>
+$(document).ready(function(){
+    // When the button is clicked
+    $("#colorfulButton").click(function(){
+        // Generate a random color
+        var randomColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        // Change the background color of the button
+        $(this).css("background-color", randomColor);
+    });
+});
+</script>
+
+```
+I used jquery to create a click me button whihc changes its colour evrytime when we click on it.
 
