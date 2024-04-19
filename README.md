@@ -13,6 +13,8 @@
 
 https://shaikzl.github.io/shaikzl-uc.github.io/index.html
 
+https://github.com/shaikzl/shaikzl-uc.github.io
+
  ![html file](images/i1.png)
 
 In the Snap-1, I created a WAPH HTML file and i have inserted details about the course contents and introduction of me.
