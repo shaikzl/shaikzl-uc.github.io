@@ -32,9 +32,11 @@ to the page. Included this counter at the bottom of the page.
 ![flag](images/up5.png)
 
 ```
-<div><a href="http://s11.flagcounter.com/more/OCo"><img src="https://s11.flagcounter.com/
+<div><a href="http://s11.flagcounter.com/more/OCo">
+<img src="https://s11.flagcounter.com/
 count2/OCo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/
-maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
+maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/
+" alt="Flag Counter"border="0"></a></div>
 ```
 
 ![clock](images/up6.png)
@@ -89,6 +91,6 @@ Used a public API named dogapi to get dog images when requested.
         fetchRandomDogImage();
 ```
 
-a JavaScript cookie feature set up to trigger an alert message when a user visits the page for the first time and also a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
+JavaScript cookie feature set up to trigger an alert message when a user visits the page for the first time and also a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
 
 ![cookies](images/up9.png)
