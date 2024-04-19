@@ -81,3 +81,7 @@ Used a public API named dogapi to get dog images when requested.
         // Call the fetchRandomDogImage function when the page loads
         fetchRandomDogImage();
 ```
+
+a JavaScript cookie feature set up to trigger an alert message when a user visits the page for the first time and also a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
+
+![cookies](images/up9.png)
