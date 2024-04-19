@@ -55,4 +55,9 @@ $(document).ready(function(){
 ```
 I used jquery to create a click me button whihc changes its colour evrytime when we click on it.
 
-** API Integration
+### API Integration 
+
+I inserted the public jokeAPI that displays a new joke every minute. Ajax was utilized to make the API get request.
+
+![Joke](images/up7.png)
+
