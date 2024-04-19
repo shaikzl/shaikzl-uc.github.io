@@ -27,6 +27,11 @@ snap - 2, I employed the Bootstrap CSS framework for creating my website more fl
 In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my educational background and projects and certifications an Interships, I integrated Bootstrap's robust CSS framework into my website development process.
 
 Included a page tracker using flagcounter to count the number of visitors
-to the page. Included this counter at the bottom of the page
+to the page. Included this counter at the bottom of the page.
+
+![flag](images/up5.png)
+<div><a href="http://s11.flagcounter.com/more/OCo"><img src="https://s11.flagcounter.com/count2/OCo/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a></div>
+
+
 
 
