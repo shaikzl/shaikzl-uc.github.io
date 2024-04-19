@@ -24,9 +24,5 @@ snap - 2, I employed the Bootstrap CSS framework for creating my website more fl
 
 ![education](images/up3.png)
 ![experience](images/up4.png)
-In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my educational background and projects and certifications, I integrated Bootstrap's robust CSS framework into my website development process
+In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my educational background and projects and certifications an Interships, I integrated Bootstrap's robust CSS framework into my website development process
 
-![interhsip and contact details](images/i5.png)
-In snap-5, extension to the bootstrap providing my inetrship and my cotact details for the recruters
-
-![kie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
