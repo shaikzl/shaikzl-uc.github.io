@@ -40,6 +40,8 @@ to the page. Included this counter at the bottom of the page.
 ![emailshowcase](images/up6_1.png)
 I incorporated  jQuery operations into the webpage: a digital clock, an analog clock, and an email onclick function.
 
+I used jquery to create a click me button which changes its colour everytime when we click on it.
+
 ```
 <button id="colorfulButton">Click Me!</button>
 <script>
@@ -55,7 +57,6 @@ $(document).ready(function(){
 </script>
 
 ```
-I used jquery to create a click me button whihc changes its colour evrytime when we click on it.
 
 ### API Integration 
 
