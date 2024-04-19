@@ -9,7 +9,7 @@
 
 **Short-bio**: I have great intrest towards ethical hacking. 
 
-![Zaheers's headshot](images/zaheerpic.jpeg width = "150")
+![Zaheers's headshot](images/zaheerpic.jpeg)
 
 https://shaikzl.github.io/shaikzl-uc.github.io/index.html
 
