@@ -65,4 +65,19 @@ Used a public API named dogapi to get dog images when requested.
 
 ![Dog](images/up8.png)
 
+```
+// Function to fetch a random dog image from the Dog API
+        function fetchRandomDogImage() {
+            fetch('https://dog.ceo/api/breeds/image/random')
+                .then(response => response.json())
+                .then(data => {
+                    const imageUrl = data.message;
+                    // Update the src attribute of the img element with the fetched image URL
+                    document.getElementById('dog-image').src = imageUrl;
+                })
+                .catch(error => console.error('Error fetching random dog image:', error));
+        }
 
+        // Call the fetchRandomDogImage function when the page loads
+        fetchRandomDogImage();
+```
