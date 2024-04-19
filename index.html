@@ -337,6 +337,19 @@
         // Call the fetchRandomDogImage function when the page loads
         fetchRandomDogImage();
     </script>
+		    <button id="colorfulButton">Click Me!</button>
+
+<script>
+$(document).ready(function(){
+    // When the button is clicked
+    $("#colorfulButton").click(function(){
+        // Generate a random color
+        var randomColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        // Change the background color of the button
+        $(this).css("background-color", randomColor);
+    });
+});
+</script>
 	    <script>
         // Function to fetch and display a joke
         function fetchJoke() {
