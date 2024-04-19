@@ -36,7 +36,9 @@ to the page. Included this counter at the bottom of the page.
 ```
 
 ![clock](images/up6.png)
-I incorporated several jQuery operations into the webpage: a digital clock, an analog clock, and an email onclick function.
+
+![emailshowcase](images/up6_1.png)
+I incorporated  jQuery operations into the webpage: a digital clock, an analog clock, and an email onclick function.
 
 ```
 <button id="colorfulButton">Click Me!</button>
