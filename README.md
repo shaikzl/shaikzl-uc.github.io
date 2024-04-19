@@ -29,15 +29,4 @@ In snap 3 and 4,Expanding upon my utilization of the Bootstrap framework with my
 ![interhsip and contact details](images/i5.png)
 In snap-5, extension to the bootstrap providing my inetrship and my cotact details for the recruters
 
-![flag counter](images/i6.png)
-In snap 6, To track the no of visits to my portfolio, I added the flag counter
-
-![clock](images/i8.png)
-![mssg](images/i9.png)
-Snap-7,8 - I incorporated several jQuery operations into the webpage: a digital clock, an analog clock, and an email onclick function. Additionally, I implemented a hover feature on a sentence, triggering the display of an error message containing the provided information.
-
-![clock](images/i10.png)
-In Snap-9, there's a JavaScript cookie feature set up to trigger an alert message when a user visits the page for the first time.
-
-![welcomeback](images/i11.png)
-Snap-10 showcases a JavaScript cookie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
+![kie functionality that presents an alert upon the user's return to the page, indicating their previous visit along with the respective date and time.
